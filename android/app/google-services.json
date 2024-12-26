@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "848238783692",
+    "project_id": "kuwo-769be",
+    "storage_bucket": "kuwo-769be.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:848238783692:android:1fc53adbcc87b35066a669",
+        "android_client_info": {
+          "package_name": "com.nirup.kuwo"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDjMZhQ5mXwx7dXI87FKklNatwQR2GvDqk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

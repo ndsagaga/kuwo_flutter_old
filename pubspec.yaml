@@ -1,0 +1,43 @@
+name: kuwo
+description: "Bite sized news"
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.4.3 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  http: ^1.2.1
+  intl: ^0.20.0
+  flutter_web_browser: "^0.17.1"
+  shared_preferences: ^2.2.3
+  flutter_native_splash: ^2.4.1
+  firebase_core: ^3.2.0
+  firebase_analytics: ^11.2.1
+  google_fonts: ^6.2.1
+  firebase_crashlytics: ^4.0.4
+  auto_size_text: ^3.0.0
+  searchfield: ^1.1.7
+  provider: ^6.1.2
+  firebase_messaging: ^15.1.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^4.0.0
+  flutter_launcher_icons: ^0.14.1
+
+flutter_launcher_icons:
+  ios: true
+  image_path: "assets/icon.png"
+
+flutter:
+  uses-material-design: true
+
+flutter_native_splash:
+  color: "#F3D2BB"
+  image: assets/icon.png
+  ios: true
+  fullscreen: false
